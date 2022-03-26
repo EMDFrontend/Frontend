@@ -1,6 +1,6 @@
 import './home.component.scss';
 import { Link } from 'react-router-dom';
-import React, { useRef, useCallback } from "react";
+// import React, { useRef, useCallback } from "react";
 
 export default function Home(){
     return(
