@@ -1,0 +1,26 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.home__main {
+    width: 100vw;
+    height: 100vh;
+    font-size: 30px; 
+    text-align: center;
+    background: url('https://images.pexels.com/photos/3660527/pexels-photo-3660527.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    h2 {
+        font-size: 4rem;
+        padding-top: 150px;
+        color: rgb(7, 30, 37);
+    }
+
+    h2:hover {
+        text-decoration: underline;
+    }
+
+}
+

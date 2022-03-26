@@ -1,10 +1,13 @@
-
+import './home.component.scss';
+import { Link } from 'react-router-dom';
 import React, { useRef, useCallback } from "react";
 
 export default function Home(){
     return(
-        <div style={{width:"50px", height:"100px", fontSize:"30px", color:"red"}}>
-            Strona główna
+        <div className ="home__main">
+            <h2>Home Page</h2>
+
+            <Link to="/about">About</Link>
         </div>
     )
 }
