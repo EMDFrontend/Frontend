@@ -6,8 +6,6 @@ export default function Home(){
     return(
         <div className ="home__main">
             <h2>Home Page</h2>
-
-            <Link to="/about">About</Link>
         </div>
     )
 }

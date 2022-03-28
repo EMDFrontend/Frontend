@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;600&display=swap');
 
 * {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
 }
@@ -17,14 +17,12 @@ body {
 }
 
 .about__container--flex {
+  width: 100vw;
   display: flex;
 }
 
-.about__container > h2 {
-  font-size: 4rem;
-}
-
 .card {
+  flex-basis: 33.3%;
   margin: 50px;
   width: 350px;
   height: 550px;
