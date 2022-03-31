@@ -7,10 +7,6 @@
     height: 100vh;
     font-size: 30px; 
     text-align: center;
-    background: url('https://images.pexels.com/photos/3660527/pexels-photo-3660527.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 
     h2 {
         font-size: 4rem;
@@ -22,5 +18,16 @@
         text-decoration: underline;
     }
 
+    p{
+        font-size: 0.765rem;
+        width: 50%;
+        padding-top: 50px;
+    }
+
+    span {
+        color: red;
+        font-size: 1rem;
+        font-weight: bold;
+    }
 }
 

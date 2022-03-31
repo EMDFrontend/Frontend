@@ -1,16 +1,18 @@
-.header {
+.navbar {
     display: flex;
     justify-content: center;
     position: fixed;
     top: 0;
+    right: 0;
     width: 100vw;
     text-align: center;
-    padding: 25px;
+    padding: 5px 5px;
     background: black;
 
     * {
+        flex-basis: 20%;
         padding: 20px;
-        font-size: 3rem;
+        font-size: 0.985rem;
         color: white;
         text-decoration: none;
         font-weight: bold;
