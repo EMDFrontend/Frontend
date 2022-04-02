@@ -3,8 +3,8 @@
     box-sizing: border-box;
 }
 .home__main {
-    width: 100vw;
-    height: 100vh;
+    height: 70vh;
+    margin: 50px;
     font-size: 30px; 
     text-align: center;
 
@@ -13,14 +13,17 @@
         padding-top: 150px;
         color: rgb(7, 30, 37);
     }
-
-    h2:hover {
-        text-decoration: underline;
+    
+    input {
+        padding: 10px;
+        font-size: 1.3rem;
+        border-radius: 5px;
+        outline: none;
     }
 
     p{
         font-size: 0.765rem;
-        width: 50%;
+        width: 80%;
         padding-top: 50px;
     }
 

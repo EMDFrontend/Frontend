@@ -1,7 +1,7 @@
 import './home.styles.scss';
 import { Link } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
-
+import Footer from '../footer/footer.component';
 
 
 
@@ -34,7 +34,6 @@ export default function Home(){
         </p>
 
         
-
         </div>
     )
 }
