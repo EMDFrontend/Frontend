@@ -7,7 +7,7 @@ const Navbar = lazy(
   () => import('./components/navbar/navbar.component'));
 const Home = lazy(() => import("./components/home/home.component"));
 const About =lazy(() => import('./components/about/about.component'));
-
+const Order = lazy(()=>import("./components/order/order.component"));
 export function ApplicationLoader(){
 
     return (
@@ -28,8 +28,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path='/about' element={<About/>} />
+            <Route path="/order" element={<Order/>}></Route>
           </Routes>
-          <Navbar />
+           <Navbar /> 
           
         <Footer />
         </Suspense>

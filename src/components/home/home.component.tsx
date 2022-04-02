@@ -8,7 +8,7 @@ import Footer from '../footer/footer.component';
 export default function Home(){
 
 
-    const [value, setValue] = useState("");
+    const [value, setValue] = useState<string>("");
 
     const getInputValue = (e) => {
       setValue(e.target.value);
